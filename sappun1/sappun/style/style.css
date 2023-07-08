@@ -1,0 +1,167 @@
+/*all layout*/
+/* header .h_top .top,
+nav,
+main,
+footer {width:1300px; margin:0 auto;; } */
+/*------------------------------------*/
+header {}
+header .h_top {
+
+    width:1440px; margin:0 auto;
+}
+header .h_top > p {
+    background-color:#ccc;
+    text-align:center;
+    height:36px;
+    padding:5px 0;
+}
+header .h_top > p a {
+    font-size:1.2rem;
+    font-weight:700;
+}
+/*---------------탑 로고 잠실 롯데월드몰-------------------*/
+header .h_top .top {
+    width:1300px; height:114px;
+    margin:0 auto;
+    position:relative;
+}
+header .h_top .top .logo {
+    width:129px; height:18px;
+    margin-left:585.5px;
+    
+}
+header .h_top .top .logo a {}
+header .h_top .top .logo a img {width:100%; padding-top:58px;}
+header .h_top .top .gnb {
+    position:absolute;
+    right:0; top:0px;
+}
+/* header .h_top .top .gnb fieldset {}
+header .h_top .top .gnb fieldset legend {}
+header .h_top .top .gnb fieldset legend select {}
+header .h_top .top .gnb fieldset legend select option {} */
+header .h_top .top .gnb ul {
+    padding-top:58px;
+}
+header .h_top .top .gnb ul li {
+    float:left;
+    
+}
+header .h_top .top .gnb ul li:nth-child(3) a {position:relative;}
+header .h_top .top .gnb ul li a {
+    margin-left:10px;
+    letter-spacing:-0.10em;
+    font-size:1rem;
+    font-weight:600;
+}
+header .h_top .top .gnb ul li a img {margin-left:3px;
+    
+}
+header .h_top .top .gnb ul li a span {
+    position:absolute;
+    width:126px; height:24px;
+    top:25px; left:-40px;
+    border:1px solid #ff7f50;
+    border-radius:10px;
+    padding:3px 10px;
+    text-align:center;
+    font-size:1rem;
+    letter-spacing:-0.10em;
+    
+}
+/*--------------------------------nav*/
+header nav {
+    width:1300px; height:50px;
+    margin:0 auto;
+    /* padding-top:13.5px; */
+    /* text-align: center; */
+}
+header nav .menu {padding-top:13.5px; text-align:center;}
+header nav .menu li {float:left; }
+header nav .menu li:nth-child(1) a {margin-left:108px;}
+header nav .menu li a {
+    margin-right:15px; font-size: 1.2rem; font-weight:700;
+    letter-spacing:-0.02em;
+}
+header nav .menu li:nth-last-child(1) a {margin:none;}
+/*---------------------------------네비끝-----------------------*/
+/*-------------------베너 사진-------------------------*/
+.banner {width:1440px; margin:0 auto;}
+.banner a {}
+.banner a img {width:100%; height:448px;}
+/*---------------------------베너사진 끝---------------------*/
+/*-------------------베너사진2*/
+.banner .banner_2 {width:1300px; margin:0 auto;}
+.banner .banner_2 li {
+    width:416px; height:350px;display:inline-block;}
+.banner .banner_2 li a  {height:350px;}
+.banner .banner_2 li a img {width:100%; height:350px; margin:80px 0;}
+.banner .banner_2 li:nth-child(2) {margin:0 20px;}
+/*베너사진2끝----------------------------------------------------------------*/
+.weekly_best {width:1300px; margin:0 auto;}
+.weekly_best h1 {
+    text-align:center; margin-bottom:100px;
+    tab-size:1.728rem;
+    letter-spacing:0.1em;
+    font-weight:700;
+}
+/*----------------------------------------weekly 이름 끝---------------*/
+.weekly_best .product {width:1300px;
+}
+.weekly_best .product li {float:left; margin-bottom:62px;}
+.weekly_best .product li:nth-child(2) { margin:0 14px;}
+.weekly_best .product li:nth-child(5) { margin:0 14px;}
+.weekly_best .product li a {width:424px; height:303px; cursor:pointer; }
+.weekly_best .product li a img {width:100%;}
+.weekly_best .product li h2 {
+    font-size:0.833rem;
+    margin-top:10px;
+}
+.weekly_best .product li > p {
+    height:54px;
+    border-bottom:1px solid #000;
+    font-size:1rem;
+    padding-top:10px;
+}
+.weekly_best .product li p em {font-size:1.2rem; font-weight:700;}
+/*----------------------------------사이즈-------------------*/
+.weekly_best .product li .size {width:424px; height:30px; padding:10px 0;}
+.weekly_best .product li .size .left {float:left; font-size:0.833rem;}
+.weekly_best .product li .size .right {float:right; color:#ff7f50; font-size:0.833rem;}
+.weekly_best .product li .bt {width:424px; height:24px;}
+.weekly_best .product li .bt .best {
+    background-color:#ffe4c4; float:left; color:#fff; margin-right:3px;
+    padding:6px 5px;
+}
+.weekly_best .product li .bt .make {
+    background-color: #000080; color:#fff; float:left; 
+    padding:6px 5px;
+}
+
+/*-----------------------------------하단 베너-------------------------------*/
+.bt_banner {width:1440px; margin:0 auto; position:relative;}
+.bt_banner p {padding-bottom:25px; border-bottom:1px solid #000;}
+.bt_banner p img {width:100%; height:284px;}
+.bt_banner .bt {
+    text-align:center;
+    position: absolute;
+    bottom:95px; right:599px;
+}
+.bt_banner .bt h1 {
+    color: #fff; margin-bottom:20px;
+    font-size:2.074rem;
+    font-weight:700;
+}
+.bt_banner .bt a {
+    border:2px solid #fff; color: #fff; padding:10px 15px;
+    font-size:1.2rem;
+}
+/*-------------------------하단베너 끝---------------------------*/
+/*---------------------------------------푸터-------------------------------*/
+footer {width:1300px; margin:0 auto;}
+footer .f_top {
+    margin:25px 0;
+}
+footer .f_top a {margin-right:30px;}
+footer .f_top a span {font-weight:600;}
+footer p {line-height:2em;}
