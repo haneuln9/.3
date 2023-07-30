@@ -1,0 +1,55 @@
+main {
+	background:url(../imges/beach-gbc5ae8bb7_1280.jpg) no-repeat;
+	width:1280px; height:720px; margin:0 auto;
+}
+main .dan {
+	display:flex;
+	flex-flow:column nowrap;
+	align-items:center;
+	
+}
+main .dan h1 {
+	font-size:2.555rem;
+	color:#fff;
+	font-weight: 700;
+	margin:80px 0;
+}
+main .dan h2 {
+	font-size:2rem;
+	color:#fff;
+	margin-bottom:20px;
+}
+main .dan .dan_content {
+	background: linear-gradient(180deg, rgba(112,125,75,0.3) 0%, rgba(180,178,2,0.3) 100%);
+	padding:30px 30px;
+	display:flex;
+	flex-flow:column nowrap;
+	align-items:center;
+	margin-top:15px;
+    border-radius:20px;
+}
+main .dan .dan_content #first_n {
+	height:30px;
+}
+main .dan .dan_content p {
+	font-size:4rem;
+	color:#fff;
+	margin-bottom:20px;
+}
+main .dan .dan_content #second_n {
+	height:30px;
+}
+main .dan .dan_content #btn {
+	margin-top:20px;
+	padding:20px;
+	background:#fff;
+	border-radius:50px;
+}
+main .dan .dan_content #btn:hover {background:orange;}
+/*----------------------*/
+main .correct {margin-top:30px;}
+main .correct .answer_correct {
+	font-weight:700;
+	font-size:2rem;
+	color:azure;
+}
